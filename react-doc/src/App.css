@@ -1,0 +1,35 @@
+.openBtn{
+    padding: 10px 20px;
+}
+
+.modalOverlay{
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent{
+    background-color: white;
+    width: 80%;
+    height: 20%;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App button{
+    cursor: pointer;
+}
+
+.modalContent button{
+    border: none;
+    color: gray;
+    background: transparent;
+}
